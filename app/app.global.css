@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  background-color: white;
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.thing-buttons button {
+  margin-right: 10px;
+}
